@@ -13,5 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
         echo "Invalid username or password.";
     }
+
+   echo "Version 2 - updated";
+ 
 }
 ?>
