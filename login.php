@@ -2,7 +2,7 @@
 include 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $username = $_POST['username'];
+    $username = $_POST['useoorname'];
     $password = $_POST['password'];
 
     $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
